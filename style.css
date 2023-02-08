@@ -17,7 +17,8 @@ html {
 .b-resource-info .b-resource-avatar {
   border-radius: 7px;
   height: calc(100% - 14px);
-  width: auto;
+  width: 60px;
+  object-fit: cover;
   order: 1;
   justify-self: flex-end;
 }
