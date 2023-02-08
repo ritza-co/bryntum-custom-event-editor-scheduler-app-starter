@@ -11,15 +11,19 @@ html {
 .b-resourceinfo-cell > div {
   display: grid;
   grid-template-columns: 100px 1fr;
-  grid-template-rows: 4.5rem;
+  grid-template-rows: 100%;
 }
 
 .b-resource-info .b-resource-avatar {
   border-radius: 7px;
-  height: 4em;
+  height: calc(100% - 14px);
   width: auto;
   order: 1;
   justify-self: flex-end;
+}
+
+#b-scheduler-1-lockedSubgrid img {
+  margin-right: 0px;
 }
 
 .b-sch-event:not(.b-milestone) {
